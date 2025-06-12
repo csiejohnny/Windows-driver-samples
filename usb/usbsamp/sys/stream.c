@@ -77,7 +77,7 @@ Return Value:
     // Note: All super speed bulk stream I/O transfers use USBD Handle obtained in
     //       UsbSamp_EvtDeviceAdd. If you call WdfUsbTargetDeviceQueryUsbCapability
     //       method instead of USBD_QueryUsbCapability here, it will not set stream 
-    //       capabilites for USBD Handle used by stream transfer in which case 
+    //       capabilities for USBD Handle used by stream transfer in which case
     //       the open streams request will fail in this example.
     //
     status = USBD_QueryUsbCapability(pDevContext->UsbdHandle,

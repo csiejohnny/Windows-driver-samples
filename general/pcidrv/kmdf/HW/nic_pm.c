@@ -155,7 +155,7 @@ typedef struct _MP_PM_PCI_SPACE {
 
     UCHAR Stuff[PMC_Offset];
 
-    // PM capabilites
+    // PM capabilities
 
     MP_PM_CAP_REG   PMCaps;
 

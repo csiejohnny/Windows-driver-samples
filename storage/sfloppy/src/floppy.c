@@ -583,7 +583,7 @@ Return Value:
 
         //
         // Increment system floppy device count.
-        //
+                        driver describing adapter capabilities (and limitations).
 
         IoGetConfigurationInformation()->FloppyCount++;
     }

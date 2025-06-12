@@ -471,8 +471,8 @@ Return Value:
     }
 
     //
-    // Retrieve USBD version information, port driver capabilites and device
-    // capabilites such as speed, power, etc.
+    // Retrieve USBD version information, port driver capabilities and device
+    // capabilities such as speed, power, etc.
     //
     WDF_USB_DEVICE_INFORMATION_INIT(&deviceInfo);
 

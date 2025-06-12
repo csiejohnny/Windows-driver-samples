@@ -2381,7 +2381,7 @@ UCHAR iScsiQuerySecurityCapabilities(
 
 Routine Description :
 
-    This routine implements the WMI query for the security capabilites
+    This routine implements the WMI query for the security capabilities
     class.
 
 --*/
